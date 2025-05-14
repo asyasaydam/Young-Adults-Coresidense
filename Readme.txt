@@ -7,7 +7,7 @@
 * Purpose: This readme files is to describe how do files are organized and what each file in the NLSY folder has. 
 
 To run the analysis...
-1. Set your working directory to Transitions/HITA
+1. Set your working directory to Projects/HITA
 2. use setup_example.do to set workspace directory, replace the macros with your own directories, and save as setup_<username>.do. 
 3. Open master.do 
 4. Run master.do
@@ -36,5 +36,5 @@ This file runs do files in order.
 * _eventhistory: this files sets the data for event history and can produce results for peak years
 
 ******************************
-Note (January 2023): There are many reduntant/trial-error do files that I have to clean.
+Note (January 2023): In local server, there are many trial-error do files that I may clean.
 
