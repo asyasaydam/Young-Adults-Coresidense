@@ -12,7 +12,7 @@ Key Findings:
 - Longer-term parental coresidence (4–6 years) is negatively associated with occupational standing
 
 Publication:
-The full article is published in the Journal of Marriage and Family and available [here]([https://onlinelibrary-wiley-com.ezproxy.lib.utexas.edu/doi/10.1111/jomf.13001)]. 
+The full article is published in the Journal of Marriage and Family and available [here]([https://onlinelibrary-wiley-com.ezproxy.lib.utexas.edu/doi/10.1111/jomf.13001]). 
 
 Repository Contents:
 This repository includes a step-by-step build-up of the analysis.
