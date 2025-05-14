@@ -16,4 +16,4 @@ The full article is published in the Journal of Marriage and Family and availabl
 
 Repository Contents:
 This repository includes a step-by-step build-up of the analysis.
-To replicate the results, use the master.do file as your entry point.
+To replicate the results, use the master.do file as your entry point. Readme.txt explains more in detail. 
