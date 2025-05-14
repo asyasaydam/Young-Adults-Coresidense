@@ -1,9 +1,9 @@
 ********************************************************************************
 * How does parental coresidence impact employment outcomes (NLSY1997) 
 * by Asya Saydam (asyasaydam@utexas.edu)
-* Spring 2022 (Jan 2022)
+* Spring 2022 
 
-********************************************************************************
+********************
 ******************** 
 ** Project set up ** 
 ********************
@@ -31,19 +31,20 @@ do "$basecode/HITA/10_extract_occup2019.do"
 do "$basecode/HITA/11_extract_enrollment.do"
 do "$basecode/HITA/12_extract_health_asset.do"
 do "$basecode/HITA/13_extract_cognitive.do"
+do "$basecode/HITA/14_extract_cognitive_health_assests.do"
 
 
 *************************************
 ** Extract & recode data for ipums **
 *************************************
-do "$basecode/HITA/14_extract_ipums.do"
-do "$basecode/HITA/15_ipums_occ_pool.do"
+do "$basecode/HITA/15_extract_ipums.do"
+do "$basecode/HITA/16_ipums_occ_pool.do"
 
 ************************************
 *** Recode occupational prestige ***
 ************************************
-do "$basecode/HITA/16_extract_ipums.do" // eq. of 14
-do "$basecode/HITA/17_ipums_occpres.do" // eq. of 15
+do "$basecode/HITA/17_extract_ipums.do" // eq. of 14
+do "$basecode/HITA/18_ipums_occpres.do" // eq. of 15
 
 **********************
 ** Variable recodes **
@@ -91,19 +92,6 @@ do "$basecode/HITA/AnalyticalSample_Men"
 
 // Employment outcomes by parental coresidence
 do "$basecode/HITA/DVbyIV_Sample_Men"
-
-
-// Analytical Sample table for women
-*do "$basecode/HITA/AnalyticalSample_Women"
-
-// The below ones are covariates by IV so I will now fix them
-
-// Descriptive table for Men
-*do "$basecode/HITA/propensityscore_descriptiveanalysisMen"
-
-// Descriptive table for Women
-*do "$basecode/HITA/propensityscore_descriptiveanalysisWomen"
-
 
 
 
