@@ -4,7 +4,7 @@ Description:
 In this project we examine young adults’ coresidence with their parents and how it relates to their employment outcomes in their early 30s.
 
 Data Sources:
-- [NLSY97]([https://www.bls.gov/nls/nlsy97.htm])  (n = 3,915) — primary dataset
+- [NLSY97](https://www.bls.gov/nls/nlsy97.htm]) (n = 3,915) — primary dataset
 - American Community Survey (ACS) — used to determine occupational standing of young adults
 
 Key Findings:
