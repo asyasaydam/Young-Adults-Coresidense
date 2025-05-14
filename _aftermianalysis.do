@@ -135,8 +135,6 @@ anova occeduc_max livedwpar_cat
 		marginsplot , graphregion(color(white)) name(g8, replace) noci recast(bar) plot1opts(lcolor(dkblue)) ciopt(color(dkorange%40)) xtitle("Parental Coresidence Duration") ytitle("Predicted probability of occupational standing")
 	
 	
-		
-	
 	
 
 		*********************************************
@@ -153,8 +151,9 @@ anova occeduc_max livedwpar_cat
 		
 		
 		
-		
+		*********************************************
 		** Occupational 
+		*********************************************
 
 		******* Model 1 Bivariate ******
 		eststo: mi estimate, post: glm occeduc_max i.livedwpar_cat3##i.momeduCol_bi [pweight=SAMPLING_PANEL_WEIGHT_1997], vce(robust) // main effect become more negative for 2-3 year, but interaction terms are signficant. 
